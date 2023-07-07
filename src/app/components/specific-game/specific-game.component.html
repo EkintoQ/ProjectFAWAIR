@@ -1,0 +1,27 @@
+<div class="image" [style.background-image]="'url(' + specificGame.screenshots[0].image + ')'">
+  <div class="grid-container">
+    <img [src] = "specificGame.thumbnail" [alt]="specificGame.title">
+    <h1 style="font-size: xxx-large">{{specificGame.title}}</h1>
+    <a href="{{specificGame.game_url}}" class="btn">PLAY</a>
+    <h1>Minimum system requirements:</h1>
+      <ul>
+        <li>
+          OS: {{specificGame.minimum_system_requirements.os}}
+        </li>
+        <li>
+          Processor: {{specificGame.minimum_system_requirements.processor}}
+        </li>
+        <li>
+          Memory: {{specificGame.minimum_system_requirements.memory}}
+        </li>
+        <li>
+          Graphics: {{specificGame.minimum_system_requirements.graphics}}
+        </li>
+        <li>
+          Storage: {{specificGame.minimum_system_requirements.storage}}
+        </li>
+      </ul>
+    <h1 style="font-size: xx-large" > About {{specificGame.title}}</h1>
+    <p style="font-size: large">{{specificGame.description}}</p>
+  </div>
+</div>

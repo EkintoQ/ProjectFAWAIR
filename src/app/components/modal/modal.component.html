@@ -1,0 +1,10 @@
+<div
+  class="modal"
+  (click)="modalService.close()">
+  <div class="modal-content">
+    <app-specific-game
+      *ngIf="specificGame$ | async as specificGame"
+      [specificGame] ="specificGame"
+    ></app-specific-game>
+  </div>
+</div>

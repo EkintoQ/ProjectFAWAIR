@@ -1,0 +1,22 @@
+.grid-container{
+  color: darkgrey;
+  grid-column: auto;
+  gap: 3%;
+  padding: 3%;
+  background-color: rgba(0,0,0,0.6);
+.btn{
+  background: greenyellow;
+  color: black;
+  padding: 1% 3%;
+  text-decoration: none;
+}
+ul {
+  li {
+    font-size: large;
+  }
+}
+}
+.image{
+  overflow: auto;
+  grid-area: image;
+}

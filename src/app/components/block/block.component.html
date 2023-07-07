@@ -1,0 +1,11 @@
+<div class="container">
+<button class="block" (click)="modalService.open(game.id)">
+    <img [src] = "game.thumbnail" [alt]="game.title">
+    <p>
+      Genre: {{game.genre}}<br>
+      Platform: {{game.platform}}<br>
+      Developer: {{game.developer}}<br>
+      Release Date: {{game.release_date}}<br>
+    </p>
+  </button>
+</div>
