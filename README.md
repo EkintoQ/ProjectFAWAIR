@@ -1,4 +1,10 @@
-# Frame
+# FAWAIR PROJECT
+
+## DESCRIPTION
+
+Single page web application based on the Angular CLI, using a third-party API, made for the purpose of learning the Angular framework
+
+## 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
 
